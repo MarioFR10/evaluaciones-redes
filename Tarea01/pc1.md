@@ -1,3 +1,10 @@
+# Escuela de Ingeniería en Computación
+# Redes IC-7602
+## Profesor: Nereo Campos
+### Estudiante: Mario Fernandez Robert - 2018163975
+
+#
+
 # Prueba corta #1
 
 1. Explique de forma concisa, ¿Porqué la transmisión de ondas de baja frecuencia no es práctica en medios inalámbricos?
