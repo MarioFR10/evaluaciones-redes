@@ -20,5 +20,7 @@
 #
 
 4. ¿Por cuáles motivos se presenta la atenuación en una señal? Explicar tanto en medios cableados como no cableados.
+    
+    - Medios Cableados: Si la distancia que hay entre el emisor y el receptor es demasiado grande la señal irá perdiendo fuerza por fricción y si se pierde más del 50% entonces se inutiliza completamente.
 
-    - 
+    - Medios no cableados: interferencia del medio al estar expuesta y tener que atravesar obstáculos físicos la potencia de la señal se puede disminuir hasta ser inutilizable o incluso perderse por completo, un ejemplo de esto serían las señales infrarrojas que no pueden atravesar una pared.

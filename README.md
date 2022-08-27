@@ -4,4 +4,4 @@
 ### Evaluaciones Realizadas
 
 - [X] Prueba Corta 1
-- [] Proyecto Opcional
+- [ ] Proyecto Opcional
