@@ -5,4 +5,4 @@
 
 - [X] Prueba Corta 1
 - [X] Resumen 1
-- [ ] Proyecto Opcional
+- [ ] Proyecto Opcional _in progress_
