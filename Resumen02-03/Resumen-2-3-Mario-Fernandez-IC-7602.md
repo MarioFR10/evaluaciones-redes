@@ -71,44 +71,44 @@ Tanto ADSL como cable tienen sus pros y sus contras, por lo tanto, queda a crite
 ## Circuitos locales inalámbricos 
 WLL (Circuito Local Inalámbrico) es una alternativa de bajo costo al tradicional circuito local con par trenzado.
 
-Asigna anchos de banda de manera asimetrica similar a ADSL y LMDS, dando prioridad al canal descendente.
+Asigna anchos de banda de manera asimétrica similar a ADSL y LMDS, dando prioridad al canal descendente.
 
-Desafortunadamente es poco probable que se popularicen debido a que no existen estandares que motiven a los fabricantes a producir equipo y que aseguren a los nuevos usuarios poder migrar a esta tecnologia sin la necesidad de comprar nuevo equipo.
+Desafortunadamente, es poco probable que se popularicen debido a que no existen estándares que motiven a los fabricantes a producir equipo y que aseguren a los nuevos usuarios poder migrar a esta tecnología sin la necesidad de comprar nuevo equipo.
 
 ---------
 
 # Troncales y multiplexión (Cap 2.5.4)
 
-Para reducir costos y poder brindar mejores servicios a un mayor beneficio las companias telefonicas han desarrollado esquemas para multiplexar conversaciones y asi poder usar menos troncales fisicas.
+Para reducir costos y poder brindar mejores servicios a un mayor beneficio, las compañías telefónicas han desarrollado esquemas para multiplexar conversaciones y así poder usar menos troncales físicas.
 
-## Categorias principales de esquemas de multiplexion
+## Categorías principales de esquemas de multiplexión
 
-- FDM: el espectro de frecuencia se divide en bandas de frecuencia y cada usuario tiene una unica banda 
-- TDM: los usuarios esperan su turno y cada uno obtiene de forma periodica toda la banda
+- FDM: el espectro de frecuencia se divide en bandas de frecuencia y cada usuario tiene una única banda 
+- TDM: los usuarios esperan su turno y cada uno obtiene de forma periódica toda la banda
 
-## Multiplexion por division de frecuencia (FDM)
-- Un estandar muy difundido es el de 12 canales a 4000 Hz multiplexados dentro de la banda de 60 a 108kHz
+## Multiplexión por división de frecuencia (FDM)
+- Un estándar muy difundido es el de 12 canales a 4000 Hz multiplexados dentro de la banda de 60 a 108 kHz
 - Se pueden crear grupos, supergrupos y grupo maestro
 
 ## Multiplexión por división de longitud de onda (WDM)
-- Se utiliza en canales de fibra optica
-- Es basicamente multiplexion por división de frecuencias a frecuencias muy altas
+- Se utiliza en canales de fibra óptica
+- Es básicamente multiplexión por división de frecuencias a frecuencias muy altas
 
 ## Multiplexión por división de tiempo (TDM)
 - Se puede manejar por completo mediante dispositivos digitales
-- Utiliza la tecnica llamda PCM
+- Utiliza la técnica llamada PCM
 ---------
 
 # Televisión por cable (Cap 2.7)
 
 ## Televisión por antena comunal
-- Provoco que las grandes companias comenzaran a comprar sistemas de cables existentes e instalaran mas cable para adquirir nuevos clientes
-- Las companias de cable empezaron a conectar cuidades por medio de cable para conectarlas a un mismo sistema
+- Provoco que las grandes compañías comenzaran a comprar sistemas de cables existentes e instalaran más cable para adquirir nuevos clientes
+- Las compañías de cable empezaron a conectar ciudades por medio de cable para conectarlas a un mismo sistema
 
 ## Internet a través de cable
 - Existe algo llamado HFC (Red Híbrida de Fibra Óptica y Cable Coaxial)
-- Los cables tipicos tienen de 500 a 2000 casas
+- Los cables típicos tienen de 500 a 2000 casas
 
-La televisión por cable a ha evolucionado hacia una red hibrida HFC lo cual genera mucho dinamismo sin incurrir en los gastos catastroficos que seria cambiar toda la infraestructura coaxial y obteniendo el mejor rendimiento de la fibra optica por lo que se ha convertido en una alternativa muy viable.
+La televisión por cable ha evolucionado hacia una red híbrida HFC, lo cual genera mucho dinamismo sin incurrir en los gastos catastróficos que sería cambiar toda la infraestructura coaxial y obteniendo el mejor rendimiento de la fibra óptica por lo que se ha convertido en una alternativa muy viable.
 
 </div>
