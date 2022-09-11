@@ -4,7 +4,7 @@
 
 int main(int argc, char **argv)
 {
-    char *bin = "11111010";
+    char *bin = "000111111010";
     char *a = bin;
     int num = 0;
     do
