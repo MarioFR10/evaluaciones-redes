@@ -75,8 +75,8 @@ def record():
     return sample_width, frames
 
 
-def play():
-    f = wave.open(r"./output.wav", "rb")
+def play(file_path):
+    f = wave.open(file_path, "rb")
     p = pyaudio.PyAudio()
 
     stream = p.open(format=p.get_format_from_width(f.getsampwidth()),
@@ -138,17 +138,18 @@ def menu():
                     print("La opcion elegida es invalida...")
 
             elif option == 2:
-                continue
+                file_path = input(
+                    "Favor ingresar el nombre del archivo: ")
+                play(file_path)
             else:
                 break
+
     except Exception as e:
         print("Se ha producido el siguiente error ->", e)
         menu()
     finally:
         print("Saliendo de autrum...")
-        print('#' * 80)
 
 
 if __name__ == '__main__':
     menu()
-    # play()
