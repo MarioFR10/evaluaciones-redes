@@ -26,6 +26,3 @@ python ./autrum.py
 ```
 
 Una vez ejecutado el programa se desplegara un menu con diversas opciones, cada opcion desencadenara una serie de comportamientos asociados a dicha opcion.
-
-Eg. Opcion 1: Analizar
-
