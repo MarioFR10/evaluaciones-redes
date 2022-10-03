@@ -9,31 +9,31 @@
 
 # Conceptos importantes
 
-Cuando se expone a internet una aplicacion es importante respetar los puertos de consenso
+Cuando se expone a internet una aplicación es importante respetar los puertos de consenso
 - Puerto 80: 
 
-    - Navegacion no segura (http)
-    - Siempre esta abierto
-    - Puerto default
-    - Permite hacer filtros de contenido
+    - Navegación no segura (http)
+    - Siempre está abierto
+    - Puerto default
+    - Permite hacer filtros de contenido
 
 - Puerto 443: 
 
-    - Se fuerza una comunicación segura
-    - Informacion viaja encriptada
-    - Util en la dark web
+    - Se fuerza una comunicación segura
+    - Información viaja encriptada
+    - Útil en la dark web
 
 # Firewall (iptables)
 
 ## Tablas y cadenas
 
-Utiles para tomar decisiones de routeo ya sea antes o despues de recibir un paquete, se definen como reglas en el firewall de la estacion, en linux se puede utilizar iptables, cabe destacar que SO's como Alpine o Centos tienen reglas preconfiguradas que pueden interferir con nuestro desarrollo.
+Útiles para tomar decisiones de routeo ya sea antes o después de recibir un paquete, se definen como reglas en el firewall de la estación, en linux se puede utilizar iptables, cabe destacar que SO's como Alpine o Centos tienen reglas pre-configuradas que pueden interferir con nuestro desarrollo.
 
-Estas reglas tambien nos ayudan a transformar paquetes de la manera que nos parezca conveniente y asi tener control sobre nuestro network.
+Estas reglas también nos ayudan a transformar paquetes de la manera que nos parezca conveniente y así tener control sobre nuestro network.
 
-Con estas reglas podemos aceptar o rechazar paquetes de diferentes maneras, incluso bloqueando todo el trafico entrante de un puerto o bloqueando el trafico saliente, etc.
+Con estas reglas podemos aceptar o rechazar paquetes de diferentes maneras, incluso bloqueando todo el tráfico entrante de un puerto o bloqueando el tráfico saliente, etc.
 
-Estas reglas nos permiten tener un seguridad en capas lo cual es muy conveniente para evitar cualquier tipo de ataque malicioso.
+Estas reglas nos permiten tener seguridad en capas, lo cual es muy conveniente para evitar cualquier tipo de ataque malicioso.
 
 
 ## Reglas de filtrado
@@ -50,7 +50,7 @@ antes de que sea enrutado. Por ejemplo, para que desde el exterior se tenga acce
 - OUTPUT: Permite modificar los paquetes generados en el propio firewall antes de ser enrutados.
 
 ## Parametros
-- -p, --protocol: Sirve para especificar el protocolo que se utiliza (tcp, udp, icmp, etc. Además si queremos
+- -p, --protocol: Sirve para especificar el protocolo que se utiliza (tcp, udp, icmp, etc. Además, si queremos
 especificar el puerto, se acompaña del parámetro –dport.
 - -s, --source: Con este parámetro indicamos la dirección IP de origen.
 - -d, --destination: Especificamos la dirección IP de destino.
@@ -68,15 +68,11 @@ valores
 petición para indicarle que no está permitida.
 - DNAT: Esta acción es utilizada en la cadena PREROUTING de la tabla NAT para modificar la IP de destino.
 Tiene que llevar asociado el parámetro –to.
-- SNAT: Acción asociada en la cadena POSTROUTING para modificar la IP origen. Al igual que el caso anterior le
+- SNAT: Acción asociada en la cadena POSTROUTING para modificar la IP origen. Al igual que el caso anterior, le
 tiene que acompañar el parámetro –to.
 - MASQUERADE: Acción equivalente a SNAT pero utilizada cuando tenemos una dirección IP dinámica en la
 interfaz de salida.
 - REDIRECT: Se utiliza en la cadena PREROUTING para modificar la dirección IP que tenga la interfaz de red
 de entrada.
-
-
-
-
 
 </div>
