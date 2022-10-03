@@ -10,18 +10,17 @@
 # Conceptos importantes
 
 Cuando se expone a internet una aplicación es importante respetar los puertos de consenso
-- Puerto 80: 
 
-    - Navegación no segura (http)
-    - Siempre está abierto
-    - Puerto default
-    - Permite hacer filtros de contenido
+Puerto 80: 
+- Navegación no segura (http)
+- Siempre está abierto
+- Puerto default
+- Permite hacer filtros de contenido
 
-- Puerto 443: 
-
-    - Se fuerza una comunicación segura
-    - Información viaja encriptada
-    - Útil en la dark web
+Puerto 443: 
+- Se fuerza una comunicación segura
+- Información viaja encriptada
+- Útil en la dark web
 
 # Firewall (iptables)
 
